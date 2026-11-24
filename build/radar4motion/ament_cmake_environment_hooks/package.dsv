@@ -1,0 +1,4 @@
+source;share/radar4motion/local_setup.bash
+source;share/radar4motion/local_setup.dsv
+source;share/radar4motion/local_setup.sh
+source;share/radar4motion/local_setup.zsh

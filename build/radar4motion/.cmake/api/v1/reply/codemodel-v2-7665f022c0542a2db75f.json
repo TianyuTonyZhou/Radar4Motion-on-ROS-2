@@ -1,0 +1,309 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-02704985ff0da97f7a8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/eigen-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen-build-d85ba741d89b33e17700.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/radar4motion/_deps/eigen-src"
+				},
+				{
+					"build" : "_deps/eigen-build/blas",
+					"jsonFile" : "directory-_deps.eigen-build.blas-f424e97012230215f944.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/radar4motion/_deps/eigen-src/blas"
+				},
+				{
+					"build" : "_deps/eigen-build/lapack",
+					"jsonFile" : "directory-_deps.eigen-build.lapack-a486a5eb88505c8d62c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "build/radar4motion/_deps/eigen-src/lapack"
+				},
+				{
+					"build" : "_deps/eigen-build/unsupported",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen-build.unsupported-e60e57646c5118c2efa4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/radar4motion/_deps/eigen-src/unsupported"
+				},
+				{
+					"build" : "_deps/eigen-build/unsupported/Eigen",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen-build.unsupported.Eigen-6d68bac92ebb43f75f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "build/radar4motion/_deps/eigen-src/unsupported/Eigen"
+				},
+				{
+					"build" : "_deps/eigen-build/unsupported/Eigen/CXX11",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen-build.unsupported.Eigen.CXX11-1956d9dba95087e2019e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "build/radar4motion/_deps/eigen-src/unsupported/Eigen/CXX11"
+				},
+				{
+					"build" : "_deps/eigen-build/demos",
+					"jsonFile" : "directory-_deps.eigen-build.demos-aba900e7e36071f9150b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "build/radar4motion/_deps/eigen-src/demos",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/eigen-build/scripts",
+					"jsonFile" : "directory-_deps.eigen-build.scripts-1724dbee400491d17714.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/radar4motion/_deps/eigen-src/scripts"
+				},
+				{
+					"build" : "_deps/sophus-build",
+					"jsonFile" : "directory-_deps.sophus-build-09c8ab5d57c82a52dd9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "build/radar4motion/_deps/sophus-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/tessil-build",
+					"jsonFile" : "directory-_deps.tessil-build-1b23a42dbef410315f87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "build/radar4motion/_deps/tessil-src"
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "radar4motion",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						8
+					],
+					"name" : "Eigen3",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EigenBlas",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "EigenLapack",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "EigenDemos",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "Sophus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "tsl-robin-map",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "demos::@dcc6c9c67a0bf50a846e",
+					"jsonFile" : "target-demos-7dd9486a04d7ddec0857.json",
+					"name" : "demos",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "other::@0ea949b180ce896eafe4",
+					"jsonFile" : "target-other-0214d75e54a6760d1211.json",
+					"name" : "other",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "radar4motion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-radar4motion-2ba0c5e6aa9345034694.json",
+					"name" : "radar4motion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "radar4motion_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-radar4motion_uninstall-ee13eb9aff2cc1cce1b3.json",
+					"name" : "radar4motion_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0c773ac87f008e6d6103.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion",
+		"source" : "/home/tianyu-tony-zhou/radar4motion-ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

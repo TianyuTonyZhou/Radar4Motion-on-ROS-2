@@ -1,3 +1,7 @@
+A ROS 2 version of Radar4Motion by Kim et al. The package can work in ROS Jazzy by installing installing all of the dependencies listed but with Jazzy version and running the following command after build:
+export AMENT_PREFIX_PATH=<path_to_workspace>/install/radar4motion:/opt/ros/jazzy
+export PATH=/home/<path_to_workspace>/install/radar4motion/lib/radar4motion:\$PATH
+
 
 <div align="center">
     <a href="https://ieeexplore.ieee.org/abstract/document/10715681" style="text-decoration:none;">

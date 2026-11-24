@@ -1,0 +1,295 @@
+[0.017s] Invoking command in '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tianyu-tony-zhou/radar4motion-ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.221s] -- The CXX compiler identification is GNU 13.3.0
+[0.244s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.371s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.520s] -- Detecting CXX compile features
+[0.521s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.710s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.863s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.917s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.935s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.957s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.982s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.090s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.094s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.197s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.230s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.380s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.475s] -- Found visualization_msgs: 5.3.7 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.524s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.570s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[1.576s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.762s] -- Found tf2_eigen: 0.36.20 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[1.774s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.786s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.788s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.788s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.792s] -- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.866s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.867s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.867s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.867s]   cmake_policy command to set the policy and suppress this warning.
+[1.867s] 
+[1.867s]   CMake variable FLANN_ROOT is set to:
+[1.867s] 
+[1.867s]     /usr
+[1.867s] 
+[1.867s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.867s]   .cmake module might still use it.
+[1.867s] Call Stack (most recent call first):
+[1.867s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.867s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.867s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.867s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.868s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.868s]   CMakeLists.txt:17 (find_package)
+[1.868s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.868s] [0m
+[1.868s] -- Found flann version 1.9.2
+[2.242s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.242s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[3.839s] -- Checking for module 'libusb-1.0'
+[3.851s] --   Found libusb-1.0, version 1.0.27
+[3.887s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.889s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.951s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.955s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.972s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.996s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[4.462s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.467s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.757s] -- Found Qhull version 8.0.2
+[5.009s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.269s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.269s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.269s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.270s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.271s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.271s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.271s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[5.271s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[5.272s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.272s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.273s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.274s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.274s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.275s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.276s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.276s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.277s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.277s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.278s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.279s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.279s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[5.279s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[5.281s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[5.282s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.283s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.286s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[5.287s] [33mCMake Warning (dev) at CMakeLists.txt:19 (find_package):
+[5.287s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[5.287s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[5.287s]   command to set the policy and suppress this warning.
+[5.287s] 
+[5.287s]   CMake variable PCL_ROOT is set to:
+[5.287s] 
+[5.287s]     /usr
+[5.288s] 
+[5.288s]   For compatibility, CMake is ignoring the variable.
+[5.288s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.288s] [0m
+[5.294s] -- Found pcl_ros: 2.6.4 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[6.871s] -- Performing Test standard_math_library_linked_to_automatically
+[7.142s] -- Performing Test standard_math_library_linked_to_automatically - Success
+[7.142s] -- Standard libraries to link to explicitly: none
+[7.143s] -- Performing Test COMPILER_SUPPORT_WERROR
+[7.269s] -- Performing Test COMPILER_SUPPORT_WERROR - Success
+[7.270s] -- Performing Test COMPILER_SUPPORT_pedantic
+[7.389s] -- Performing Test COMPILER_SUPPORT_pedantic - Success
+[7.390s] -- Performing Test COMPILER_SUPPORT_Wall
+[7.500s] -- Performing Test COMPILER_SUPPORT_Wall - Success
+[7.501s] -- Performing Test COMPILER_SUPPORT_Wextra
+[7.618s] -- Performing Test COMPILER_SUPPORT_Wextra - Success
+[7.619s] -- Performing Test COMPILER_SUPPORT_Wundef
+[7.733s] -- Performing Test COMPILER_SUPPORT_Wundef - Success
+[7.734s] -- Performing Test COMPILER_SUPPORT_Wcastalign
+[7.847s] -- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+[7.848s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+[7.961s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+[7.962s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+[8.079s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+[8.080s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+[8.195s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+[8.196s] -- Performing Test COMPILER_SUPPORT_Wpointerarith
+[8.312s] -- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+[8.312s] -- Performing Test COMPILER_SUPPORT_Wwritestrings
+[8.430s] -- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+[8.431s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity
+[8.554s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+[8.555s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32
+[8.614s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+[8.615s] -- Performing Test COMPILER_SUPPORT_Wlogicalop
+[8.739s] -- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+[8.739s] -- Performing Test COMPILER_SUPPORT_Wenumconversion
+[8.858s] -- Performing Test COMPILER_SUPPORT_Wenumconversion - Success
+[8.859s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+[8.976s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Success
+[8.976s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+[9.096s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+[9.096s] -- Performing Test COMPILER_SUPPORT_Wshadow
+[9.209s] -- Performing Test COMPILER_SUPPORT_Wshadow - Success
+[9.210s] -- Performing Test COMPILER_SUPPORT_Wnopsabi
+[9.330s] -- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+[9.330s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+[9.447s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+[9.448s] -- Performing Test COMPILER_SUPPORT_Wnolonglong
+[9.567s] -- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+[9.568s] -- Performing Test COMPILER_SUPPORT_fnochecknew
+[9.685s] -- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+[9.686s] -- Performing Test COMPILER_SUPPORT_fnocommon
+[9.803s] -- Performing Test COMPILER_SUPPORT_fnocommon - Success
+[9.804s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing
+[9.920s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+[9.921s] -- Performing Test COMPILER_SUPPORT_wd981
+[9.969s] -- Performing Test COMPILER_SUPPORT_wd981 - Failed
+[9.970s] -- Performing Test COMPILER_SUPPORT_wd2304
+[10.018s] -- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+[10.019s] -- Performing Test COMPILER_SUPPORT_OPENMP
+[10.145s] -- Performing Test COMPILER_SUPPORT_OPENMP - Success
+[10.252s] -- The Fortran compiler identification is GNU 13.3.0
+[10.294s] -- Found unsuitable Qt version "5.15.13" from /usr/bin/qmake
+[10.294s] -- Qt4 not found, so disabling the mandelbrot and opengl demos
+[10.301s] -- Could NOT find CLANG_FORMAT: Found unsuitable version "0.0", but required is exact version "9" (found CLANG_FORMAT_EXECUTABLE-NOTFOUND)
+[10.301s] -- 
+[10.301s] -- Configured Eigen 3.4.90
+[10.301s] -- 
+[11.457s] [0mCMake Deprecation Warning at build/radar4motion/_deps/sophus-src/CMakeLists.txt:1 (cmake_minimum_required):
+[11.457s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[11.458s]   CMake.
+[11.458s] 
+[11.458s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[11.458s]   CMake that the project does not need compatibility with older versions.
+[11.458s] 
+[11.458s] [0m
+[11.460s] -- Turning basic logging ON
+[12.524s] [0mCMake Deprecation Warning at build/radar4motion/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):
+[12.524s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[12.524s]   CMake.
+[12.524s] 
+[12.524s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[12.524s]   CMake that the project does not need compatibility with older versions.
+[12.524s] 
+[12.525s] [0m
+[12.700s] -- Configuring done (12.7s)
+[12.787s] -- Generating done (0.1s)
+[12.789s] [33mCMake Warning:
+[12.789s]   Manually-specified variables were not used by the project:
+[12.789s] 
+[12.789s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[12.789s] 
+[12.789s] [0m
+[12.797s] -- Build files have been written to: /home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion
+[12.834s] Invoked command in '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tianyu-tony-zhou/radar4motion-ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion
+[12.837s] Invoking command in '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion -- -j16 -l16
+[12.915s] [ 28%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/src/core.cpp.o[0m
+[12.916s] [ 28%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/src/radar4motion/preprocessing.cpp.o[0m
+[12.916s] [ 28%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/src/main.cpp.o[0m
+[12.916s] [ 50%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/src/radar4motion/odometry.cpp.o[0m
+[12.916s] [ 50%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Threshold.cpp.o[0m
+[12.916s] [ 50%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Registration.cpp.o[0m
+[12.917s] [ 50%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Preprocessing.cpp.o[0m
+[12.917s] [ 57%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Deskew.cpp.o[0m
+[12.917s] [ 64%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/VoxelUtils.cpp.o[0m
+[12.917s] [ 71%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/vod_utils/vod_parse_utils.cpp.o[0m
+[12.917s] [ 78%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/ego_motion_estimator/ego_motion_estimator.cpp.o[0m
+[12.917s] [ 85%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/VoxelHashMap.cpp.o[0m
+[12.919s] [ 92%] [32mBuilding CXX object CMakeFiles/radar4motion.dir/include/ego_motion_estimator/radar_point_cloud.cpp.o[0m
+[34.197s] [100%] [32m[1mLinking CXX executable radar4motion[0m
+[36.330s] [100%] Built target radar4motion
+[36.343s] Invoked command in '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion -- -j16 -l16
+[36.358s] Invoking command in '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion
+[36.363s] -- Install configuration: ""
+[36.363s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/lib/radar4motion/radar4motion
+[36.374s] -- Set non-toolchain portion of runtime path of "/home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/lib/radar4motion/radar4motion" to ""
+[36.375s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch
+[36.375s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_offline.launch.py
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_online.launch.py
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_online.launch
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_offline.launch
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config/radar_point_cloud_odometry.ini
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config/radar_point_cloud_odometry_online.ini
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config/radar_ego_motion_estimation.ini
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset
+[36.376s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips
+[36.377s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_4.txt
+[36.377s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_3.txt
+[36.377s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_24.txt
+[36.377s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_17.txt
+[36.377s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_19.txt
+[36.377s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_22.txt
+[36.378s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_9.txt
+[36.378s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_23.txt
+[36.378s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs
+[36.378s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/logo.png
+[36.378s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/PARAMETERS.md
+[36.379s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/vod17.gif
+[36.383s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/vod03.gif
+[36.387s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include
+[36.387s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/vod_utils
+[36.387s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/vod_utils/vod_parse_utils.hpp
+[36.387s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/vod_utils/vod_parse_utils.cpp
+[36.387s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/radar_point_cloud.h
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/ego_motion_estimator.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/ego_motion_estimator.h
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/data_types.h
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/radar_point_cloud.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/ros_helper.h
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Threshold.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelHashMap.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Registration.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelHashMap.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelUtils.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Registration.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Preprocessing.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Deskew.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelUtils.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Threshold.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Preprocessing.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Deskew.cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/odometry.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp/README.md
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp/ini.h
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp/c_ini.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/preprocessing.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/types.h
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/core.hpp
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/ament_index/resource_index/package_run_dependencies/radar4motion
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/ament_index/resource_index/parent_prefix_path/radar4motion
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/ament_prefix_path.sh
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/ament_prefix_path.dsv
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/path.sh
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/path.dsv
+[36.388s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.bash
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.sh
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.zsh
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.dsv
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/package.dsv
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/ament_index/resource_index/packages/radar4motion
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/cmake/radar4motionConfig.cmake
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/cmake/radar4motionConfig-version.cmake
+[36.389s] -- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/package.xml
+[36.390s] Invoked command in '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion

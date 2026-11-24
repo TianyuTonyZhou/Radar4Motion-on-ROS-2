@@ -1,0 +1,80 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/radar4motion/_deps/eigen-src/unsupported/Eigen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Devel",
+			"destination" : "include/eigen3/unsupported/Eigen",
+			"paths" : 
+			[
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/AdolcForward",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/AlignedVector3",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/ArpackSupport",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/AutoDiff",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/BVH",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/EulerAngles",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/FFT",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/IterativeSolvers",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/KroneckerProduct",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/LevenbergMarquardt",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/MatrixFunctions",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/MoreVectorization",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/MPRealSupport",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/NNLS",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/NonLinearOptimization",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/NumericalDiff",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/OpenGLSupport",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/Polynomials",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/Skyline",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/SparseExtra",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/SpecialFunctions",
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/Splines"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "include/eigen3/unsupported/Eigen",
+			"paths" : 
+			[
+				"build/radar4motion/_deps/eigen-src/unsupported/Eigen/src"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/eigen-build/unsupported/Eigen",
+		"source" : "build/radar4motion/_deps/eigen-src/unsupported/Eigen"
+	}
+}

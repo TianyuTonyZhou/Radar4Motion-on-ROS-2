@@ -1,0 +1,665 @@
+[0.000000] (-) TimerEvent: {}
+[0.000936] (radar4motion) JobQueued: {'identifier': 'radar4motion', 'dependencies': OrderedDict()}
+[0.000982] (radar4motion) JobStarted: {'identifier': 'radar4motion'}
+[0.015016] (radar4motion) JobProgress: {'identifier': 'radar4motion', 'progress': 'cmake'}
+[0.015769] (radar4motion) Command: {'cmd': ['/usr/bin/cmake', '/home/tianyu-tony-zhou/radar4motion-ros2', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion'], 'cwd': '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tianyu-tony-zhou', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tianyu-tony-zhou', 'OLDPWD': '/home/tianyu-tony-zhou', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tianyu-tony-zhou', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tianyu-tony-zhou', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tianyu-tony-zhou/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/tianyu-tony-zhou/.local/bin', 'SESSION_MANAGER': 'local/tianyu-tony-zhou-Yoga-7-2-in-1-14AKP10:@/tmp/.ICE-unix/3234,unix/tianyu-tony-zhou-Yoga-7-2-in-1-14AKP10:/tmp/.ICE-unix/3234', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/adf78f41_8ea9_4478_8802_1d081a4ed017', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C591X3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/usr/local:'}), 'shell': False}
+[0.099731] (-) TimerEvent: {}
+[0.121429] (radar4motion) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200348] (-) TimerEvent: {}
+[0.221671] (radar4motion) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.244618] (radar4motion) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300434] (-) TimerEvent: {}
+[0.359911] (radar4motion) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.370807] (radar4motion) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.372293] (radar4motion) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.372942] (radar4motion) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.384161] (radar4motion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400517] (-) TimerEvent: {}
+[0.500898] (-) TimerEvent: {}
+[0.508703] (radar4motion) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.520632] (radar4motion) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.521018] (radar4motion) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.521606] (radar4motion) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.528768] (radar4motion) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600989] (-) TimerEvent: {}
+[0.701337] (-) TimerEvent: {}
+[0.710218] (radar4motion) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.801481] (-) TimerEvent: {}
+[0.863998] (radar4motion) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.901561] (-) TimerEvent: {}
+[0.917672] (radar4motion) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.936108] (radar4motion) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.958374] (radar4motion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.982424] (radar4motion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001646] (-) TimerEvent: {}
+[1.090637] (radar4motion) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.094596] (radar4motion) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101736] (-) TimerEvent: {}
+[1.197740] (radar4motion) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.201859] (-) TimerEvent: {}
+[1.231084] (radar4motion) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.263363] (radar4motion) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302288] (-) TimerEvent: {}
+[1.380432] (radar4motion) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.402462] (-) TimerEvent: {}
+[1.475545] (radar4motion) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.7 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.502762] (-) TimerEvent: {}
+[1.525060] (radar4motion) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.570485] (radar4motion) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.577306] (radar4motion) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.602798] (-) TimerEvent: {}
+[1.703172] (-) TimerEvent: {}
+[1.762886] (radar4motion) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.20 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[1.774798] (radar4motion) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.786773] (radar4motion) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.788698] (radar4motion) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.788832] (radar4motion) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.792646] (radar4motion) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[1.803244] (-) TimerEvent: {}
+[1.867018] (radar4motion) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[1.867530] (radar4motion) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.867651] (radar4motion) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.867739] (radar4motion) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.867819] (radar4motion) StderrLine: {'line': b'\n'}
+[1.867901] (radar4motion) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[1.867984] (radar4motion) StderrLine: {'line': b'\n'}
+[1.868062] (radar4motion) StderrLine: {'line': b'    /usr\n'}
+[1.868136] (radar4motion) StderrLine: {'line': b'\n'}
+[1.868174] (radar4motion) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.868219] (radar4motion) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.868277] (radar4motion) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.868317] (radar4motion) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[1.868357] (radar4motion) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[1.868397] (radar4motion) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[1.868437] (radar4motion) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.868478] (radar4motion) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[1.868519] (radar4motion) StderrLine: {'line': b'  CMakeLists.txt:17 (find_package)\n'}
+[1.868559] (radar4motion) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.868648] (radar4motion) StderrLine: {'line': b'\x1b[0m\n'}
+[1.868692] (radar4motion) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.903422] (-) TimerEvent: {}
+[2.003892] (-) TimerEvent: {}
+[2.104367] (-) TimerEvent: {}
+[2.204870] (-) TimerEvent: {}
+[2.242820] (radar4motion) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.243219] (radar4motion) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[2.304987] (-) TimerEvent: {}
+[2.405447] (-) TimerEvent: {}
+[2.505957] (-) TimerEvent: {}
+[2.606464] (-) TimerEvent: {}
+[2.706967] (-) TimerEvent: {}
+[2.807476] (-) TimerEvent: {}
+[2.907985] (-) TimerEvent: {}
+[3.008507] (-) TimerEvent: {}
+[3.109088] (-) TimerEvent: {}
+[3.209655] (-) TimerEvent: {}
+[3.310197] (-) TimerEvent: {}
+[3.410794] (-) TimerEvent: {}
+[3.511330] (-) TimerEvent: {}
+[3.611828] (-) TimerEvent: {}
+[3.712380] (-) TimerEvent: {}
+[3.812905] (-) TimerEvent: {}
+[3.839581] (radar4motion) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.851595] (radar4motion) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[3.887546] (radar4motion) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.889945] (radar4motion) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.913073] (-) TimerEvent: {}
+[3.951754] (radar4motion) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.955678] (radar4motion) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[3.972497] (radar4motion) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[3.997165] (radar4motion) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[4.013183] (-) TimerEvent: {}
+[4.113612] (-) TimerEvent: {}
+[4.214084] (-) TimerEvent: {}
+[4.314599] (-) TimerEvent: {}
+[4.415133] (-) TimerEvent: {}
+[4.463089] (radar4motion) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.468238] (radar4motion) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.515306] (-) TimerEvent: {}
+[4.615766] (-) TimerEvent: {}
+[4.716237] (-) TimerEvent: {}
+[4.757770] (radar4motion) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.816435] (-) TimerEvent: {}
+[4.916957] (-) TimerEvent: {}
+[5.010071] (radar4motion) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.017027] (-) TimerEvent: {}
+[5.117362] (-) TimerEvent: {}
+[5.217871] (-) TimerEvent: {}
+[5.269265] (radar4motion) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[5.269751] (radar4motion) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[5.270295] (radar4motion) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[5.270839] (radar4motion) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[5.271402] (radar4motion) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[5.271944] (radar4motion) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[5.272112] (radar4motion) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[5.272304] (radar4motion) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[5.272844] (radar4motion) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[5.273420] (radar4motion) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[5.274009] (radar4motion) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[5.274574] (radar4motion) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[5.275274] (radar4motion) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[5.275858] (radar4motion) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[5.276444] (radar4motion) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[5.277050] (radar4motion) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[5.277647] (radar4motion) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[5.278204] (radar4motion) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[5.278822] (radar4motion) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[5.279463] (radar4motion) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[5.279866] (radar4motion) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[5.280055] (radar4motion) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[5.282068] (radar4motion) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[5.283128] (radar4motion) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[5.283792] (radar4motion) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[5.286664] (radar4motion) StdoutLine: {'line': b'-- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)\n'}
+[5.287785] (radar4motion) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:19 (find_package):\n'}
+[5.287940] (radar4motion) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[5.288023] (radar4motion) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[5.288097] (radar4motion) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[5.288168] (radar4motion) StderrLine: {'line': b'\n'}
+[5.288251] (radar4motion) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[5.288325] (radar4motion) StderrLine: {'line': b'\n'}
+[5.288394] (radar4motion) StderrLine: {'line': b'    /usr\n'}
+[5.288461] (radar4motion) StderrLine: {'line': b'\n'}
+[5.288528] (radar4motion) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[5.288596] (radar4motion) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.288662] (radar4motion) StderrLine: {'line': b'\x1b[0m\n'}
+[5.295262] (radar4motion) StdoutLine: {'line': b'-- Found pcl_ros: 2.6.4 (/opt/ros/jazzy/share/pcl_ros/cmake)\n'}
+[5.317944] (-) TimerEvent: {}
+[5.418372] (-) TimerEvent: {}
+[5.518892] (-) TimerEvent: {}
+[5.619362] (-) TimerEvent: {}
+[5.719807] (-) TimerEvent: {}
+[5.821018] (-) TimerEvent: {}
+[5.922484] (-) TimerEvent: {}
+[6.023199] (-) TimerEvent: {}
+[6.123828] (-) TimerEvent: {}
+[6.224491] (-) TimerEvent: {}
+[6.325037] (-) TimerEvent: {}
+[6.425547] (-) TimerEvent: {}
+[6.526056] (-) TimerEvent: {}
+[6.626571] (-) TimerEvent: {}
+[6.727087] (-) TimerEvent: {}
+[6.827588] (-) TimerEvent: {}
+[6.871221] (radar4motion) StdoutLine: {'line': b'-- Performing Test standard_math_library_linked_to_automatically\n'}
+[6.927748] (-) TimerEvent: {}
+[7.028227] (-) TimerEvent: {}
+[7.128736] (-) TimerEvent: {}
+[7.142783] (radar4motion) StdoutLine: {'line': b'-- Performing Test standard_math_library_linked_to_automatically - Success\n'}
+[7.143150] (radar4motion) StdoutLine: {'line': b'-- Standard libraries to link to explicitly: none\n'}
+[7.144175] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_WERROR\n'}
+[7.228916] (-) TimerEvent: {}
+[7.270019] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_WERROR - Success\n'}
+[7.270950] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_pedantic\n'}
+[7.329092] (-) TimerEvent: {}
+[7.389673] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_pedantic - Success\n'}
+[7.390559] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wall\n'}
+[7.429302] (-) TimerEvent: {}
+[7.500591] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wall - Success\n'}
+[7.501478] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wextra\n'}
+[7.529446] (-) TimerEvent: {}
+[7.618933] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wextra - Success\n'}
+[7.619783] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wundef\n'}
+[7.629518] (-) TimerEvent: {}
+[7.729869] (-) TimerEvent: {}
+[7.733852] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wundef - Success\n'}
+[7.734819] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wcastalign\n'}
+[7.830075] (-) TimerEvent: {}
+[7.847919] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wcastalign - Success\n'}
+[7.848819] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wcharsubscripts\n'}
+[7.930283] (-) TimerEvent: {}
+[7.962138] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success\n'}
+[7.963039] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor\n'}
+[8.030471] (-) TimerEvent: {}
+[8.079934] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success\n'}
+[8.080840] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs\n'}
+[8.130678] (-) TimerEvent: {}
+[8.195757] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success\n'}
+[8.196654] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wpointerarith\n'}
+[8.230800] (-) TimerEvent: {}
+[8.312257] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wpointerarith - Success\n'}
+[8.313148] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wwritestrings\n'}
+[8.330892] (-) TimerEvent: {}
+[8.430816] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wwritestrings - Success\n'}
+[8.431187] (-) TimerEvent: {}
+[8.431715] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wformatsecurity\n'}
+[8.531394] (-) TimerEvent: {}
+[8.554824] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success\n'}
+[8.555712] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wshorten64to32\n'}
+[8.615186] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed\n'}
+[8.616072] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wlogicalop\n'}
+[8.631501] (-) TimerEvent: {}
+[8.731928] (-) TimerEvent: {}
+[8.739162] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wlogicalop - Success\n'}
+[8.740092] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wenumconversion\n'}
+[8.832132] (-) TimerEvent: {}
+[8.859098] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wenumconversion - Success\n'}
+[8.860013] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wcpp11extensions\n'}
+[8.932318] (-) TimerEvent: {}
+[8.976465] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Success\n'}
+[8.977343] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wdoublepromotion\n'}
+[9.032496] (-) TimerEvent: {}
+[9.096261] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success\n'}
+[9.097146] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wshadow\n'}
+[9.132654] (-) TimerEvent: {}
+[9.210158] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wshadow - Success\n'}
+[9.211045] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnopsabi\n'}
+[9.232748] (-) TimerEvent: {}
+[9.330395] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnopsabi - Success\n'}
+[9.331279] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros\n'}
+[9.332829] (-) TimerEvent: {}
+[9.433194] (-) TimerEvent: {}
+[9.448199] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success\n'}
+[9.449104] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnolonglong\n'}
+[9.533354] (-) TimerEvent: {}
+[9.567878] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_Wnolonglong - Success\n'}
+[9.568771] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_fnochecknew\n'}
+[9.633486] (-) TimerEvent: {}
+[9.685693] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_fnochecknew - Success\n'}
+[9.686574] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_fnocommon\n'}
+[9.733653] (-) TimerEvent: {}
+[9.803583] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_fnocommon - Success\n'}
+[9.804466] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_fstrictaliasing\n'}
+[9.833771] (-) TimerEvent: {}
+[9.920822] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success\n'}
+[9.921722] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_wd981\n'}
+[9.933849] (-) TimerEvent: {}
+[9.970182] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_wd981 - Failed\n'}
+[9.971090] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_wd2304\n'}
+[10.018944] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_wd2304 - Failed\n'}
+[10.020401] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_OPENMP\n'}
+[10.033950] (-) TimerEvent: {}
+[10.134334] (-) TimerEvent: {}
+[10.146046] (radar4motion) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORT_OPENMP - Success\n'}
+[10.234493] (-) TimerEvent: {}
+[10.253035] (radar4motion) StdoutLine: {'line': b'-- The Fortran compiler identification is GNU 13.3.0\n'}
+[10.294475] (radar4motion) StdoutLine: {'line': b'-- Found unsuitable Qt version "5.15.13" from /usr/bin/qmake\n'}
+[10.294834] (radar4motion) StdoutLine: {'line': b'-- Qt4 not found, so disabling the mandelbrot and opengl demos\n'}
+[10.301488] (radar4motion) StdoutLine: {'line': b'-- Could NOT find CLANG_FORMAT: Found unsuitable version "0.0", but required is exact version "9" (found CLANG_FORMAT_EXECUTABLE-NOTFOUND)\n'}
+[10.301891] (radar4motion) StdoutLine: {'line': b'-- \n'}
+[10.301968] (radar4motion) StdoutLine: {'line': b'-- Configured Eigen 3.4.90\n'}
+[10.302021] (radar4motion) StdoutLine: {'line': b'-- \n'}
+[10.334654] (-) TimerEvent: {}
+[10.435127] (-) TimerEvent: {}
+[10.536591] (-) TimerEvent: {}
+[10.638387] (-) TimerEvent: {}
+[10.739018] (-) TimerEvent: {}
+[10.840435] (-) TimerEvent: {}
+[10.941041] (-) TimerEvent: {}
+[11.042372] (-) TimerEvent: {}
+[11.143358] (-) TimerEvent: {}
+[11.243941] (-) TimerEvent: {}
+[11.344477] (-) TimerEvent: {}
+[11.445005] (-) TimerEvent: {}
+[11.457973] (radar4motion) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at build/radar4motion/_deps/sophus-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[11.458363] (radar4motion) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[11.458466] (radar4motion) StderrLine: {'line': b'  CMake.\n'}
+[11.458546] (radar4motion) StderrLine: {'line': b'\n'}
+[11.458620] (radar4motion) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[11.458692] (radar4motion) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[11.458780] (radar4motion) StderrLine: {'line': b'\n'}
+[11.458854] (radar4motion) StderrLine: {'line': b'\x1b[0m\n'}
+[11.460762] (radar4motion) StdoutLine: {'line': b'-- Turning basic logging ON\n'}
+[11.545206] (-) TimerEvent: {}
+[11.645795] (-) TimerEvent: {}
+[11.746406] (-) TimerEvent: {}
+[11.847689] (-) TimerEvent: {}
+[11.949019] (-) TimerEvent: {}
+[12.050068] (-) TimerEvent: {}
+[12.151415] (-) TimerEvent: {}
+[12.251993] (-) TimerEvent: {}
+[12.352507] (-) TimerEvent: {}
+[12.453011] (-) TimerEvent: {}
+[12.524351] (radar4motion) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at build/radar4motion/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[12.524775] (radar4motion) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[12.524876] (radar4motion) StderrLine: {'line': b'  CMake.\n'}
+[12.524959] (radar4motion) StderrLine: {'line': b'\n'}
+[12.525039] (radar4motion) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[12.525119] (radar4motion) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[12.525196] (radar4motion) StderrLine: {'line': b'\n'}
+[12.525431] (radar4motion) StderrLine: {'line': b'\x1b[0m\n'}
+[12.553093] (-) TimerEvent: {}
+[12.653412] (-) TimerEvent: {}
+[12.700416] (radar4motion) StdoutLine: {'line': b'-- Configuring done (12.7s)\n'}
+[12.753642] (-) TimerEvent: {}
+[12.787226] (radar4motion) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[12.789953] (radar4motion) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[12.790080] (radar4motion) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[12.790145] (radar4motion) StderrLine: {'line': b'\n'}
+[12.790199] (radar4motion) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[12.790262] (radar4motion) StderrLine: {'line': b'\n'}
+[12.790313] (radar4motion) StderrLine: {'line': b'\x1b[0m\n'}
+[12.797559] (radar4motion) StdoutLine: {'line': b'-- Build files have been written to: /home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion\n'}
+[12.834729] (radar4motion) CommandEnded: {'returncode': 0}
+[12.836136] (radar4motion) JobProgress: {'identifier': 'radar4motion', 'progress': 'build'}
+[12.837614] (radar4motion) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion', '--', '-j16', '-l16'], 'cwd': '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tianyu-tony-zhou', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tianyu-tony-zhou', 'OLDPWD': '/home/tianyu-tony-zhou', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tianyu-tony-zhou', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tianyu-tony-zhou', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tianyu-tony-zhou/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/tianyu-tony-zhou/.local/bin', 'SESSION_MANAGER': 'local/tianyu-tony-zhou-Yoga-7-2-in-1-14AKP10:@/tmp/.ICE-unix/3234,unix/tianyu-tony-zhou-Yoga-7-2-in-1-14AKP10:/tmp/.ICE-unix/3234', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/adf78f41_8ea9_4478_8802_1d081a4ed017', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C591X3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/usr/local:'}), 'shell': False}
+[12.853724] (-) TimerEvent: {}
+[12.915886] (radar4motion) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/src/core.cpp.o\x1b[0m\n'}
+[12.916528] (radar4motion) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/src/radar4motion/preprocessing.cpp.o\x1b[0m\n'}
+[12.916709] (radar4motion) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/src/main.cpp.o\x1b[0m\n'}
+[12.916851] (radar4motion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/src/radar4motion/odometry.cpp.o\x1b[0m\n'}
+[12.916984] (radar4motion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Threshold.cpp.o\x1b[0m\n'}
+[12.917115] (radar4motion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Registration.cpp.o\x1b[0m\n'}
+[12.917593] (radar4motion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Preprocessing.cpp.o\x1b[0m\n'}
+[12.917761] (radar4motion) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/Deskew.cpp.o\x1b[0m\n'}
+[12.917877] (radar4motion) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/VoxelUtils.cpp.o\x1b[0m\n'}
+[12.917986] (radar4motion) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/vod_utils/vod_parse_utils.cpp.o\x1b[0m\n'}
+[12.918098] (radar4motion) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/ego_motion_estimator/ego_motion_estimator.cpp.o\x1b[0m\n'}
+[12.918268] (radar4motion) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/radar4motion/kiss-icp/VoxelHashMap.cpp.o\x1b[0m\n'}
+[12.920010] (radar4motion) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/radar4motion.dir/include/ego_motion_estimator/radar_point_cloud.cpp.o\x1b[0m\n'}
+[12.953958] (-) TimerEvent: {}
+[13.054576] (-) TimerEvent: {}
+[13.155109] (-) TimerEvent: {}
+[13.255501] (-) TimerEvent: {}
+[13.355872] (-) TimerEvent: {}
+[13.456315] (-) TimerEvent: {}
+[13.556647] (-) TimerEvent: {}
+[13.656977] (-) TimerEvent: {}
+[13.760422] (-) TimerEvent: {}
+[13.860768] (-) TimerEvent: {}
+[13.961126] (-) TimerEvent: {}
+[14.061461] (-) TimerEvent: {}
+[14.161783] (-) TimerEvent: {}
+[14.262110] (-) TimerEvent: {}
+[14.362441] (-) TimerEvent: {}
+[14.462781] (-) TimerEvent: {}
+[14.563121] (-) TimerEvent: {}
+[14.663459] (-) TimerEvent: {}
+[14.763783] (-) TimerEvent: {}
+[14.864110] (-) TimerEvent: {}
+[14.964446] (-) TimerEvent: {}
+[15.064778] (-) TimerEvent: {}
+[15.165120] (-) TimerEvent: {}
+[15.265472] (-) TimerEvent: {}
+[15.365820] (-) TimerEvent: {}
+[15.466190] (-) TimerEvent: {}
+[15.566567] (-) TimerEvent: {}
+[15.666935] (-) TimerEvent: {}
+[15.767301] (-) TimerEvent: {}
+[15.867661] (-) TimerEvent: {}
+[15.968011] (-) TimerEvent: {}
+[16.068357] (-) TimerEvent: {}
+[16.168733] (-) TimerEvent: {}
+[16.269098] (-) TimerEvent: {}
+[16.369471] (-) TimerEvent: {}
+[16.469845] (-) TimerEvent: {}
+[16.570214] (-) TimerEvent: {}
+[16.670575] (-) TimerEvent: {}
+[16.770922] (-) TimerEvent: {}
+[16.871297] (-) TimerEvent: {}
+[16.971676] (-) TimerEvent: {}
+[17.072047] (-) TimerEvent: {}
+[17.172426] (-) TimerEvent: {}
+[17.272802] (-) TimerEvent: {}
+[17.373189] (-) TimerEvent: {}
+[17.473562] (-) TimerEvent: {}
+[17.573927] (-) TimerEvent: {}
+[17.674270] (-) TimerEvent: {}
+[17.774563] (-) TimerEvent: {}
+[17.874898] (-) TimerEvent: {}
+[17.975270] (-) TimerEvent: {}
+[18.075621] (-) TimerEvent: {}
+[18.176016] (-) TimerEvent: {}
+[18.276514] (-) TimerEvent: {}
+[18.376848] (-) TimerEvent: {}
+[18.477187] (-) TimerEvent: {}
+[18.577529] (-) TimerEvent: {}
+[18.677868] (-) TimerEvent: {}
+[18.778229] (-) TimerEvent: {}
+[18.878613] (-) TimerEvent: {}
+[18.979014] (-) TimerEvent: {}
+[19.079453] (-) TimerEvent: {}
+[19.179879] (-) TimerEvent: {}
+[19.280270] (-) TimerEvent: {}
+[19.380615] (-) TimerEvent: {}
+[19.481021] (-) TimerEvent: {}
+[19.581433] (-) TimerEvent: {}
+[19.681818] (-) TimerEvent: {}
+[19.782143] (-) TimerEvent: {}
+[19.882489] (-) TimerEvent: {}
+[19.982849] (-) TimerEvent: {}
+[20.083217] (-) TimerEvent: {}
+[20.183594] (-) TimerEvent: {}
+[20.283987] (-) TimerEvent: {}
+[20.384352] (-) TimerEvent: {}
+[20.484805] (-) TimerEvent: {}
+[20.585248] (-) TimerEvent: {}
+[20.685678] (-) TimerEvent: {}
+[20.786105] (-) TimerEvent: {}
+[20.886551] (-) TimerEvent: {}
+[20.986965] (-) TimerEvent: {}
+[21.087293] (-) TimerEvent: {}
+[21.187614] (-) TimerEvent: {}
+[21.287930] (-) TimerEvent: {}
+[21.388246] (-) TimerEvent: {}
+[21.488497] (-) TimerEvent: {}
+[21.588817] (-) TimerEvent: {}
+[21.689223] (-) TimerEvent: {}
+[21.789590] (-) TimerEvent: {}
+[21.889955] (-) TimerEvent: {}
+[21.990328] (-) TimerEvent: {}
+[22.090712] (-) TimerEvent: {}
+[22.191090] (-) TimerEvent: {}
+[22.291476] (-) TimerEvent: {}
+[22.391832] (-) TimerEvent: {}
+[22.492207] (-) TimerEvent: {}
+[22.592547] (-) TimerEvent: {}
+[22.692853] (-) TimerEvent: {}
+[22.793182] (-) TimerEvent: {}
+[22.893508] (-) TimerEvent: {}
+[22.993857] (-) TimerEvent: {}
+[23.094191] (-) TimerEvent: {}
+[23.194570] (-) TimerEvent: {}
+[23.294920] (-) TimerEvent: {}
+[23.395297] (-) TimerEvent: {}
+[23.495647] (-) TimerEvent: {}
+[23.595981] (-) TimerEvent: {}
+[23.696315] (-) TimerEvent: {}
+[23.796640] (-) TimerEvent: {}
+[23.896956] (-) TimerEvent: {}
+[23.997262] (-) TimerEvent: {}
+[24.097577] (-) TimerEvent: {}
+[24.197977] (-) TimerEvent: {}
+[24.298381] (-) TimerEvent: {}
+[24.398768] (-) TimerEvent: {}
+[24.499132] (-) TimerEvent: {}
+[24.599484] (-) TimerEvent: {}
+[24.699806] (-) TimerEvent: {}
+[24.800116] (-) TimerEvent: {}
+[24.900447] (-) TimerEvent: {}
+[25.000734] (-) TimerEvent: {}
+[25.101041] (-) TimerEvent: {}
+[25.201359] (-) TimerEvent: {}
+[25.301653] (-) TimerEvent: {}
+[25.401964] (-) TimerEvent: {}
+[25.502289] (-) TimerEvent: {}
+[25.602579] (-) TimerEvent: {}
+[25.702872] (-) TimerEvent: {}
+[25.803149] (-) TimerEvent: {}
+[25.903430] (-) TimerEvent: {}
+[26.003707] (-) TimerEvent: {}
+[26.104002] (-) TimerEvent: {}
+[26.204302] (-) TimerEvent: {}
+[26.304581] (-) TimerEvent: {}
+[26.404876] (-) TimerEvent: {}
+[26.505199] (-) TimerEvent: {}
+[26.605499] (-) TimerEvent: {}
+[26.705804] (-) TimerEvent: {}
+[26.806095] (-) TimerEvent: {}
+[26.906390] (-) TimerEvent: {}
+[27.006674] (-) TimerEvent: {}
+[27.106968] (-) TimerEvent: {}
+[27.207309] (-) TimerEvent: {}
+[27.307602] (-) TimerEvent: {}
+[27.407906] (-) TimerEvent: {}
+[27.508232] (-) TimerEvent: {}
+[27.608512] (-) TimerEvent: {}
+[27.708804] (-) TimerEvent: {}
+[27.809100] (-) TimerEvent: {}
+[27.909454] (-) TimerEvent: {}
+[28.009773] (-) TimerEvent: {}
+[28.110104] (-) TimerEvent: {}
+[28.210421] (-) TimerEvent: {}
+[28.310733] (-) TimerEvent: {}
+[28.411107] (-) TimerEvent: {}
+[28.511452] (-) TimerEvent: {}
+[28.611760] (-) TimerEvent: {}
+[28.712081] (-) TimerEvent: {}
+[28.812406] (-) TimerEvent: {}
+[28.912692] (-) TimerEvent: {}
+[29.013003] (-) TimerEvent: {}
+[29.113373] (-) TimerEvent: {}
+[29.213715] (-) TimerEvent: {}
+[29.314039] (-) TimerEvent: {}
+[29.414390] (-) TimerEvent: {}
+[29.514711] (-) TimerEvent: {}
+[29.614990] (-) TimerEvent: {}
+[29.715337] (-) TimerEvent: {}
+[29.815700] (-) TimerEvent: {}
+[29.916031] (-) TimerEvent: {}
+[30.016430] (-) TimerEvent: {}
+[30.116849] (-) TimerEvent: {}
+[30.217302] (-) TimerEvent: {}
+[30.317632] (-) TimerEvent: {}
+[30.417971] (-) TimerEvent: {}
+[30.518325] (-) TimerEvent: {}
+[30.618681] (-) TimerEvent: {}
+[30.719022] (-) TimerEvent: {}
+[30.819382] (-) TimerEvent: {}
+[30.919702] (-) TimerEvent: {}
+[31.020092] (-) TimerEvent: {}
+[31.120550] (-) TimerEvent: {}
+[31.220901] (-) TimerEvent: {}
+[31.321278] (-) TimerEvent: {}
+[31.421613] (-) TimerEvent: {}
+[31.521945] (-) TimerEvent: {}
+[31.622260] (-) TimerEvent: {}
+[31.722688] (-) TimerEvent: {}
+[31.823012] (-) TimerEvent: {}
+[31.923381] (-) TimerEvent: {}
+[32.023739] (-) TimerEvent: {}
+[32.124100] (-) TimerEvent: {}
+[32.224515] (-) TimerEvent: {}
+[32.324960] (-) TimerEvent: {}
+[32.425312] (-) TimerEvent: {}
+[32.525707] (-) TimerEvent: {}
+[32.626141] (-) TimerEvent: {}
+[32.726559] (-) TimerEvent: {}
+[32.826962] (-) TimerEvent: {}
+[32.927543] (-) TimerEvent: {}
+[33.028003] (-) TimerEvent: {}
+[33.128550] (-) TimerEvent: {}
+[33.229011] (-) TimerEvent: {}
+[33.329375] (-) TimerEvent: {}
+[33.429761] (-) TimerEvent: {}
+[33.530197] (-) TimerEvent: {}
+[33.630678] (-) TimerEvent: {}
+[33.731014] (-) TimerEvent: {}
+[33.831349] (-) TimerEvent: {}
+[33.931662] (-) TimerEvent: {}
+[34.031942] (-) TimerEvent: {}
+[34.132223] (-) TimerEvent: {}
+[34.197466] (radar4motion) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable radar4motion\x1b[0m\n'}
+[34.232333] (-) TimerEvent: {}
+[34.332744] (-) TimerEvent: {}
+[34.433110] (-) TimerEvent: {}
+[34.533536] (-) TimerEvent: {}
+[34.633880] (-) TimerEvent: {}
+[34.734172] (-) TimerEvent: {}
+[34.834488] (-) TimerEvent: {}
+[34.934852] (-) TimerEvent: {}
+[35.035246] (-) TimerEvent: {}
+[35.135632] (-) TimerEvent: {}
+[35.236007] (-) TimerEvent: {}
+[35.336356] (-) TimerEvent: {}
+[35.436749] (-) TimerEvent: {}
+[35.537120] (-) TimerEvent: {}
+[35.637484] (-) TimerEvent: {}
+[35.737842] (-) TimerEvent: {}
+[35.838200] (-) TimerEvent: {}
+[35.938616] (-) TimerEvent: {}
+[36.038978] (-) TimerEvent: {}
+[36.139336] (-) TimerEvent: {}
+[36.239659] (-) TimerEvent: {}
+[36.331158] (radar4motion) StdoutLine: {'line': b'[100%] Built target radar4motion\n'}
+[36.339739] (-) TimerEvent: {}
+[36.344124] (radar4motion) CommandEnded: {'returncode': 0}
+[36.345318] (radar4motion) JobProgress: {'identifier': 'radar4motion', 'progress': 'install'}
+[36.358484] (radar4motion) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion'], 'cwd': '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tianyu-tony-zhou', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tianyu-tony-zhou', 'OLDPWD': '/home/tianyu-tony-zhou', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tianyu-tony-zhou', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tianyu-tony-zhou', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/tianyu-tony-zhou/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/tianyu-tony-zhou/.local/bin', 'SESSION_MANAGER': 'local/tianyu-tony-zhou-Yoga-7-2-in-1-14AKP10:@/tmp/.ICE-unix/3234,unix/tianyu-tony-zhou-Yoga-7-2-in-1-14AKP10:/tmp/.ICE-unix/3234', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/adf78f41_8ea9_4478_8802_1d081a4ed017', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C591X3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tianyu-tony-zhou/radar4motion-ros2/build/radar4motion', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/usr/local:'}), 'shell': False}
+[36.364089] (radar4motion) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.364307] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/lib/radar4motion/radar4motion\n'}
+[36.375270] (radar4motion) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/lib/radar4motion/radar4motion" to ""\n'}
+[36.375543] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch\n'}
+[36.375681] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_offline.launch.py\n'}
+[36.376432] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_online.launch.py\n'}
+[36.376536] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_online.launch\n'}
+[36.376683] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/launch/radar4motion_offline.launch\n'}
+[36.376768] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config\n'}
+[36.376813] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config/radar_point_cloud_odometry.ini\n'}
+[36.376939] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config/radar_point_cloud_odometry_online.ini\n'}
+[36.377047] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/config/radar_ego_motion_estimation.ini\n'}
+[36.377205] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset\n'}
+[36.377288] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips\n'}
+[36.377507] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_4.txt\n'}
+[36.377671] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_3.txt\n'}
+[36.377868] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_24.txt\n'}
+[36.377997] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_17.txt\n'}
+[36.378140] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_19.txt\n'}
+[36.378333] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_22.txt\n'}
+[36.378504] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_9.txt\n'}
+[36.378665] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/dataset/clips/delft_23.txt\n'}
+[36.378860] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs\n'}
+[36.378924] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/logo.png\n'}
+[36.379366] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/PARAMETERS.md\n'}
+[36.379506] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/vod17.gif\n'}
+[36.383868] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/docs/vod03.gif\n'}
+[36.388060] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include\n'}
+[36.388194] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/vod_utils\n'}
+[36.388277] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/vod_utils/vod_parse_utils.hpp\n'}
+[36.388347] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/vod_utils/vod_parse_utils.cpp\n'}
+[36.388414] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator\n'}
+[36.388473] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/radar_point_cloud.h\n'}
+[36.388497] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/ego_motion_estimator.cpp\n'}
+[36.388523] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/ego_motion_estimator.h\n'}
+[36.388547] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/data_types.h\n'}
+[36.388662] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/radar_point_cloud.cpp\n'}
+[36.388707] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/ego_motion_estimator/ros_helper.h\n'}
+[36.388737] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion\n'}
+[36.388761] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp\n'}
+[36.388786] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Threshold.hpp\n'}
+[36.388812] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelHashMap.cpp\n'}
+[36.388835] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Registration.hpp\n'}
+[36.388859] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelHashMap.hpp\n'}
+[36.388919] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelUtils.cpp\n'}
+[36.388941] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Registration.cpp\n'}
+[36.388974] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Preprocessing.cpp\n'}
+[36.388998] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Deskew.hpp\n'}
+[36.389020] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/VoxelUtils.hpp\n'}
+[36.389052] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Threshold.cpp\n'}
+[36.389075] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Preprocessing.hpp\n'}
+[36.389110] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/kiss-icp/Deskew.cpp\n'}
+[36.389145] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/odometry.hpp\n'}
+[36.389168] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp\n'}
+[36.389191] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp/README.md\n'}
+[36.389215] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp/ini.h\n'}
+[36.389239] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/ini_handler_cpp/c_ini.hpp\n'}
+[36.389263] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/radar4motion/preprocessing.hpp\n'}
+[36.389284] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/types.h\n'}
+[36.389308] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/include/core.hpp\n'}
+[36.389346] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/ament_index/resource_index/package_run_dependencies/radar4motion\n'}
+[36.389366] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/ament_index/resource_index/parent_prefix_path/radar4motion\n'}
+[36.389386] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/ament_prefix_path.sh\n'}
+[36.389406] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/ament_prefix_path.dsv\n'}
+[36.389427] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/path.sh\n'}
+[36.389446] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/environment/path.dsv\n'}
+[36.389466] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.bash\n'}
+[36.389485] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.sh\n'}
+[36.389506] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.zsh\n'}
+[36.389526] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/local_setup.dsv\n'}
+[36.389545] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/package.dsv\n'}
+[36.389565] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/ament_index/resource_index/packages/radar4motion\n'}
+[36.389584] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/cmake/radar4motionConfig.cmake\n'}
+[36.389603] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/cmake/radar4motionConfig-version.cmake\n'}
+[36.389623] (radar4motion) StdoutLine: {'line': b'-- Installing: /home/tianyu-tony-zhou/radar4motion-ros2/install/radar4motion/share/radar4motion/package.xml\n'}
+[36.390697] (radar4motion) CommandEnded: {'returncode': 0}
+[36.404990] (radar4motion) JobEnded: {'identifier': 'radar4motion', 'rc': 0}
+[36.405831] (-) EventReactorShutdown: {}
